@@ -171,3 +171,63 @@
     width: 100%;
 }
 
+/* Lower part goes here */
+.lower-scene {
+	height: 400px;;
+	width: 750px;
+	position: absolute;
+}
+
+.wrapper {
+	width: 75%;
+	height: 44%;	
+	margin: 20% auto 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.bear-outer {
+	width: 85px;
+	height: 85px;
+	border-radius: 30%;
+	background-color: #58cdbd;
+}
+
+.lines-container {
+	width: 82%;
+	height: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.line {
+	height: 12px;
+	background-color: #bbbbbb;
+}
+
+.long {
+	width: 100%;
+}
+
+.short {
+	width: 50%;
+}
+
+.footer-container {
+	height: 12%;
+	width: 100%;
+	margin-top: 6px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.green-button {
+	margin-left: 15px;
+	background-color: #a3dab7;
+	border-radius: 15px;
+	height: 100%;
+	width: 15%;
+}
+
