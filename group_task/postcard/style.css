@@ -9,133 +9,20 @@
 	height: 1000px;
 	border-radius: 10%;
 	position: fixed;
-    margin-top: 200px;
-	margin-bottom: 200px;
-    left: 20%;
+    margin: 100px auto;
 	box-shadow: 20px 20px 100px 1px #a3a1a3;
 	position: relative;
 	overflow: hidden;
 }
 
 .scene {
+    text-align: center;
 	height: 600px;
-	background-color: #58cdbd;
 	z-index: 9;
 }
 
-.scene .hill_2 {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 100px 250px 100px;
-	border-color: transparent transparent #aaddd5 transparent;
-	position: absolute;
-	top: 35%;
-	left: 53.33%;
-}
-
-.scene .hill_1 {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 190px 400px 190px;
-	border-color: transparent transparent #d0f19c transparent;
-	position: absolute;
-	top: 20%;
-	left: 20%;
-	z-index: 8;
-}
-
-.scene .snow_1 {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 47.5px 100px 47.5px;
-	border-color: transparent transparent #ffffff transparent;
-	position: absolute;
-	top: 20%;
-	left: 39.03%;
-	z-index: 9;
-}
-
-.scene .snow_2 {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 40px 23.5px 0 23.5px;
-	border-color: #ffffff transparent transparent transparent;
-	position: absolute;
-	top: 30%;
-	left: 45.51%;
-	z-index: 9;
-}
-
-.scene .snow_3 {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 100px 47.5px 0 47.5px;
-	border-color: #ffffff transparent transparent transparent;
-	position: absolute;
-	top: 30%;
-	left: 33.2%;
-	z-index: 9;
-}
-
-.scene .crutch {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 49px 23.5px 0 23.5px;
-	border-color: #58cdbd transparent transparent transparent;
-	position: absolute;
-	top: 30%;
-	left: 32.78%;
-	z-index: 9;
-}
-
-.scene .tree_1 {
-	width: 200px;
-	height: 130px;
-	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-	background-color: #3bb7b9;
-	position: absolute;
-	left: 0%;
-	bottom: 40%;
-	z-index: 9;
-}
-
-.scene .tree_2 {
-	width: 175px;
-	height: 70px;
-	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-	background-color: #3bb7b9;
-	position: absolute;
-	left: 22%;
-	bottom: 40%;
-	z-index: 9;
-}
-
-.scene .tree_3 {
-	width: 180px;
-	height: 140px;
-	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-	background-color: #3bb7b9;
-	position: absolute;
-	left: 43%;
-	bottom: 40%;
-	z-index: 9;
-}
-
-.scene .tree_4 {
-	width: 400px;
-	height: 65px;
-	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
-	background-color: #3bb7b9;
-	position: absolute;
-	right: 0%;
-	bottom: 40%;
-	z-index: 9;
+.scene img {
+    width: 100%;
 }
 
 .paper-plane:not(:active) {
@@ -156,6 +43,7 @@
     opacity: 0;
 }
 
+
 @-webkit-keyframes move {
   100% {
     motion-offset: 100%;
@@ -170,13 +58,13 @@
   }
 }
 
-.paper-plane img {
+.paper-plane svg {
     width: 100%;
 }
 
 /* Lower part goes here */
 .lower-scene {
-	height: 400px;;
+	height: 400px;
 	width: 750px;
 	position: absolute;
 }
