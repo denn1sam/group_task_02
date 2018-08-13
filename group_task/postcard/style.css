@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.postcard {
+	width: 750px;
+	height: 1000px;
+	border-radius: 10%;
+	border: 1px solid #000;
+	position: fixed;
+    margin-top: 200px;
+	margin-bottom: 200px;
+    left: 20%;
+	box-shadow: 50px 50px 50px #e0e0e0;
+	position: relative;
+	overflow: hidden;
+}
+
+.scene {
+	height: 600px;
+	background-color: #58cdbd;
+	z-index: 9;
+}
+
+.scene .hill_2 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 100px 250px 100px;
+	border-color: transparent transparent #aaddd5 transparent;
+	position: absolute;
+	top: 35%;
+	left: 53.33%;
+}
+
+.scene .hill_1 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 190px 400px 190px;
+	border-color: transparent transparent #d0f19c transparent;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 8;
+}
+
+.scene .snow_1 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 47.5px 100px 47.5px;
+	border-color: transparent transparent #ffffff transparent;
+	position: absolute;
+	top: 20%;
+	left: 39.03%;
+	z-index: 9;
+}
+
+.scene .snow_2 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 23.5px 0 23.5px;
+	border-color: #ffffff transparent transparent transparent;
+	position: absolute;
+	top: 30%;
+	left: 45.51%;
+	z-index: 9;
+}
+
+.scene .snow_3 {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 47.5px 0 47.5px;
+	border-color: #ffffff transparent transparent transparent;
+	position: absolute;
+	top: 30%;
+	left: 33.2%;
+	z-index: 9;
+}
+
+.scene .crutch {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 49px 23.5px 0 23.5px;
+	border-color: #58cdbd transparent transparent transparent;
+	position: absolute;
+	top: 30%;
+	left: 32.78%;
+	z-index: 9;
+}
+
+.scene .tree_1 {
+	width: 200px;
+	height: 130px;
+	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	background-color: #3bb7b9;
+	position: absolute;
+	left: 0%;
+	bottom: 40%;
+	z-index: 9;
+}
+
+.scene .tree_2 {
+	width: 175px;
+	height: 70px;
+	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	background-color: #3bb7b9;
+	position: absolute;
+	left: 22%;
+	bottom: 40%;
+	z-index: 9;
+}
+
+.scene .tree_3 {
+	width: 180px;
+	height: 140px;
+	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	background-color: #3bb7b9;
+	position: absolute;
+	left: 43%;
+	bottom: 40%;
+	z-index: 9;
+}
+
+.scene .tree_4 {
+	width: 400px;
+	height: 65px;
+	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	background-color: #3bb7b9;
+	position: absolute;
+	right: 0%;
+	bottom: 40%;
+	z-index: 9;
+}
+
+.paper-plane {
+    motion-path: path("M 577.06458,490.38339 C 687.46681,401.29666 765.13034,298.39449 811.82592,191.02681 L 678.77936,97.326423 C 356.07627,123.85313 -42.994781,247.92582 -278.92207,340.55937 c -13.74322,47.2108 78.47129,91.35314 103.67156,130.90105 117.78397,19.60494 229.685119,17.532 372.3193,31.01962 227.15893,-5.29407 248.43119,4.07123 379.99579,-12.09665 z");
+    offset-path: path("M 577.06458,490.38339 C 687.46681,401.29666 765.13034,298.39449 811.82592,191.02681 L 678.77936,97.326423 C 356.07627,123.85313 -42.994781,247.92582 -278.92207,340.55937 c -13.74322,47.2108 78.47129,91.35314 103.67156,130.90105 117.78397,19.60494 229.685119,17.532 372.3193,31.01962 227.15893,-5.29407 248.43119,4.07123 379.99579,-12.09665 z");
+    motion-rotation: reverse;
+    -webkit-animation: move 5s linear;
+    animation: move 5s linear;
+    width: 71px;
+    height: 54px;
+    position: absolute;
+    left: 10%;
+    top: 70px;
+    z-index: 1000;
+}
+
+@-webkit-keyframes move {
+  100% {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }
+}
+
+@keyframes move {
+  100% {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }
+}
+
+.paper-plane img {
+    width: 100%;
+}
+
