@@ -10,9 +10,9 @@
 	border-radius: 10%;
 	border: 1px solid #000;
 	position: fixed;
-    margin-top: 200px;
+	margin-top: 200px;
 	margin-bottom: 200px;
-    left: 20%;
+	left: 20%;
 	box-shadow: 50px 50px 50px #e0e0e0;
 	position: relative;
 	overflow: hidden;
@@ -173,7 +173,7 @@
 
 /* Lower part goes here */
 .lower-scene {
-	height: 400px;;
+	height: 400px;
 	width: 750px;
 	position: absolute;
 }
