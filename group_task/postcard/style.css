@@ -187,19 +187,19 @@
 }
 
 .loader-point.first {
-	animation-delay:5.8s;
+	animation-delay:1.2s;
 	left: 10px;
 	transform:scale(0);
 }
 
 .loader-point.second {
-	animation-delay:5.95s;
+	animation-delay:1.35s;
 	left: 51px;
 	transform:scale(0);
 }
 
 .loader-point.third {
-	animation-delay:5.1s;
+	animation-delay:1.5s;
 	left: 93px;
 	transform:scale(0);
 }
