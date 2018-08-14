@@ -7,6 +7,7 @@
   }
   
   .dot {
+	/* animation: dot 1s infinite linear; */
 	animation: dot 1s 1 linear;
 	opacity: 0;
   }
@@ -83,7 +84,8 @@
 }
 
 .paper-plane svg {
-    width: 100%;
+	width: 100%;
+	transform: rotate(-25deg);
 }
 
 /* Lower part goes here */
@@ -180,22 +182,25 @@
 	animation-duration:1s;
 	animation-iteration-count:infinite;
 	animation-direction:normal;
-	transform:scale(.3);
+	transform:scale(0.3);
 }
 
 .loader-point.first {
-	animation-delay:0.8s;
+	animation-delay:5.8s;
 	left: 10px;
+	transform:scale(0);
 }
 
 .loader-point.second {
-	animation-delay:0.95s;
+	animation-delay:5.95s;
 	left: 51px;
+	transform:scale(0);
 }
 
 .loader-point.third {
-	animation-delay:1.1s;
+	animation-delay:5.1s;
 	left: 93px;
+	transform:scale(0);
 }
 
 @keyframes bounce_fountainG {
