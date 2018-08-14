@@ -9,14 +9,14 @@
 	height: 1000px;
 	border-radius: 10%;
 	position: fixed;
-    margin: 100px auto;
+  margin: 100px auto;
 	box-shadow: 20px 20px 100px 1px #a3a1a3;
 	position: relative;
 	overflow: hidden;
 }
 
 .scene {
-    text-align: center;
+  text-align: center;
 	height: 600px;
 	z-index: 9;
 }
@@ -83,6 +83,13 @@
 	height: 85px;
 	border-radius: 30%;
 	background-color: #58cdbd;
+}
+
+.bear-img {
+	width: 80%;
+	display: block;
+  margin: 0 auto;
+	margin-top: 10%;
 }
 
 .lines-container {
