@@ -13,11 +13,12 @@
 	box-shadow: 20px 20px 100px 1px #a3a1a3;
 	position: relative;
 	overflow: hidden;
+	zoom: 0.78;
 }
 
 .scene {
     text-align: center;
-	height: 600px;
+	height: 60%;
 	z-index: 9;
 }
 
@@ -64,8 +65,8 @@
 
 /* Lower part goes here */
 .lower-scene {
-	height: 400px;
-	width: 750px;
+	height: 40%;
+    width: 100%;
 	position: absolute;
 }
 
